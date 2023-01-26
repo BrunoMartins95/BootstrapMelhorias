@@ -1,0 +1,22 @@
+header{
+    background-color: antiquewhite;
+    height: 100px;
+}
+
+section {
+    margin-top: 20px;
+}
+
+
+
+section .descricao {
+    text-align: justify;
+}
+
+
+@media (min-width:1200px) {
+ section h3, h3 {
+    font-size: 0.85rem;
+ }
+}
+

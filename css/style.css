@@ -1,0 +1,66 @@
+header {
+    background-color: #EE4E2E;
+    color: azure;
+}
+
+main .image,
+main .formulario {
+    flex-grow: 1;
+}
+
+main .formulario {
+    padding: 50px;
+    /* define a quantidade de partes da a area irá ocupar em relação as outras areas do flex https://www.w3schools.com/cssref/css3_pr_flex-grow.php */
+}
+
+main .formulario input {
+    width: 100%;
+}
+
+main .image {
+    background-color: #EE4E2E;
+    color: azure;
+    min-width: 360px;
+}
+
+main section {
+    flex-wrap: wrap;
+}
+
+
+@media (min-width:768px) {
+    main section {
+        flex-wrap: nowrap;
+    }
+}
+
+main .image {
+    min-height: 400px;
+    background-image: url(../imagens/propaganda.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+
+main .image p {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+}
+
+/* .container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+} */

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produto</title>
+     <!--Aplicando as folhas de estilo do Boostrap via CDN-->
+
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+ <!--Aplicando minha folha de estilo-->
+
+ <link rel="stylesheet" href="../css/produto.css">
+ <link rel="shortcut icon" href="../imagens/bolsa-de-compras.png" type="image/x-icon">
+
+ <!--Aplicando a font-awesome-->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <header>
+
+    </header>
+    <section class=" container d-flex">
+        <div class="fotoproduto d-flex flex-column">
+            <div class="fotoprimaria p-3">
+              <img src="https://picsum.photos/200/200" alt="produto" width="100%">
+            </div>
+            <div class="fotosecundaria d-flex">
+                <img src="https://picsum.photos/100/100" alt="produtodesc1">
+                <img src="https://picsum.photos/100/100" alt="produtodesc2">
+                <img src="https://picsum.photos/100/100" alt="produtodesc3">
+                <img src="https://picsum.photos/100/100" alt="produtodesc4">
+                <img src="https://picsum.photos/100/100" alt="produtodesc5">
+
+            </div>
+        </div>
+        <div class="contexto container">
+            <div class="descricao p-2 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste libero atque suscipit, ipsam earum incidunt obcaecati tempora eligendi fugiat impedit distinctio, cumque saepe vero debitis iusto quia dicta sint eaque.</div>
+            <div class="content-loja d-flex justify-content-between p-1">
+                <div class="classificacao">
+                    <span>
+                        5.0
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                    </span>
+                    <span>
+                       |    50 Avaliações
+                    </span>
+                    <span>
+                       |    89 Vendidos
+                    </span>
+                
+                </div>
+                <div class="content-denuncia">
+                        Denunciar <i class="fa-sharp fa-solid fa-shield-halved"></i>
+                </div>
+            </div>
+            <div class="preco d-flex p-2">
+            <h3 class="precoreal"><s>R$ 50,00</s></h3>
+            <h2 class="precopromo">R$ 25,00</h2>
+            </div>
+            <div class="cupons d-flex justify-content-between p-1 align-items-center ">
+                Cupons Validos <span class="p-2">5% OFF <i class="fa-sharp fa-solid fa-dollar-sign"></i></span><span class="p-2">Frete Gratis <i class="fa-sharp fa-solid fa-truck-fast"></i></span><span class="p-2">15% Off <i class="fa-sharp fa-solid fa-dollar-sign"></i></span>
+            </div>
+            <div class="envio d-flex justify-content-between p-2 align-items-center">
+                <div class="frete align-items-stretch">
+                    Frete
+                </div>
+                <div class="enviogratis">
+                    Frete Gratis <i class="fa-sharp fa-solid fa-truck-field"></i>
+                </div>
+                <div class="envioaerio">
+                    Frete Aereo <i class="fa-solid fa-plane"></i>
+                </div>
+            </div>
+            <div class="cor d-flex justify-content-between p-2 align-items-center">
+                <div class="align-items-stretch">
+                    Cor
+                </div>
+                <button type="button" class="btn btn-outline-success">Verde</button>
+                <button type="button" class="btn btn-outline-primary">Azul</button>
+                <button type="button" class="btn btn-outline-dark">Preto</button>
+                <button type="button" class="btn btn-outline-danger">Vermelho</button>
+                <button type="button" class="btn btn-outline-warning">Amarelo</button>
+            </div>
+            <div class="modelo d-flex justify-content-between p-2 align-items-center">
+                <div class="align-items-stretch">
+                    Modelos
+                </div>
+                <div class="p-2">
+                    <button class="m-1">Samsung S21</button>
+                    <button class="m-1">Samsung S21 5G</button>
+                    <button class="m-1">Samsung S21 Ultra</button>
+                    <button class="m-1">Samsung S22 + 5G</button>
+                    <button class="m-1">Samsung S21 Plus</button>
+                </div>
+            </div>
+            <div class="quantidade p-2">
+                <div>
+                    Quantidade
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+    </section>
+
+    
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</html>

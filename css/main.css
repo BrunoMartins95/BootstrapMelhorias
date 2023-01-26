@@ -1,0 +1,6 @@
+@import url(colors.css);
+@import url(style.css);
+
+:root {
+    --orange: #EE4E2E;
+}
